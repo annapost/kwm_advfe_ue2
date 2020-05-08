@@ -1,0 +1,40 @@
+a[href^="mailto:"] {
+  &::before{
+    content: '✉ ';
+  }
+}
+
+a[href^="tel:"] {
+  &::before{
+    content: '✆ ';
+  }
+}
+
+a[href^="https://*"] {
+  &::before{
+    content: '⇒ ';
+  }
+}
+
+a[href^=".pdf"], a[href^=".mp3"], a[href^=".zip"] {
+  &::before{
+    content: '↓ ';
+  }
+}
+
+a{
+  color: $light-green;
+  text-decoration: none;
+  line-height: 0.8;
+
+  footer &{
+    color: black;
+  }
+}
+
+
+
+//von david walsh (frontendguru) -> verständlichere Schreibweise statt regex/für regex
+//a[href*="//"]:not([href*="mysite.com"]) {
+  /* external link styles, use :before or :after if you want! */
+//}

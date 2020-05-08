@@ -1,0 +1,13 @@
+/* bellefair-regular - latin */
+@font-face {
+  font-family: 'Bellefair';
+  font-style: normal;
+  font-weight: 400;
+  src: url('http://localhost/advFE_vorlage-ue2/public//fonts/bellefair-v5-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Bellefair Regular'), local('Bellefair-Regular'),
+  url('http://localhost/advFE_vorlage-ue2/public/fonts/bellefair-v5-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('http://localhost/advFE_vorlage-ue2/public/fonts/bellefair-v5-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+  url('http://localhost/advFE_vorlage-ue2/public/fonts/bellefair-v5-latin-regular.woff') format('woff'), /* Modern Browsers */
+  url('http://localhost/advFE_vorlage-ue2/public/fonts/bellefair-v5-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+  url('http://localhost/advFE_vorlage-ue2/public/fonts/bellefair-v5-latin-regular.svg#Bellefair') format('svg'); /* Legacy iOS */
+}
